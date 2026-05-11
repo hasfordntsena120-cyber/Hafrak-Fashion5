@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+  <meta name="theme-color" content="#001f3f">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Hafrak Fashion | Premium Custom Tailoring & African Designs | Takoradi Fijai</title>
+  <meta name="description" content="Hafrak Fashion in Fijai, Takoradi - custom garments, African dresses, wedding gowns, professional alterations, and office suits. Book an appointment today.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="logo">Hafrak Fashion</div>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li><a href="#" class="active-nav" id="homeLink">Home</a></li>
+          <li><a href="#" id="aboutLink">About Us</a></li>
+          <li class="dropdown">
+            <a href="#">Services <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="service-link" data-service="tailoring">Custom Tailoring (Male & Female)</a></li>
+              <li><a href="#" class="service-link" data-service="alterations">Professional Alterations</a></li>
+              <li><a href="#" class="service-link" data-service="repair">Quick Repair</a></li>
+              <li><a href="#" class="service-link" data-service="ladieswear">Ladies Wear & Office Suit</a></li>
+              <li><a href="#" class="service-link" data-service="wedding">Wedding Dress & Design</a></li>
+              <li><a href="#" class="service-link" data-service="kaftan">Kaftan & African Styles</a></li>
+            </ul>
+          </li>
+          <li><a href="#" id="workLink">Our Work</a></li>
+          <li class="dropdown">
+            <a href="#">More <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" id="whyUsNavLink">Why Us</a></li>
+              <li><a href="#" id="reviewsNavLink">Reviews</a></li>
+              <li><a href="#" id="faqsNavLink">FAQs</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="hamburger" aria-label="Menu" role="button">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-slider">
+        <div class="slide active" style="background-image: url('image/13.jpeg');"></div>
+        <div class="slide" style="background-image: url('image/7.jpeg');"></div>
+        <div class="slide" style="background-image: url('image/6.jpeg');"></div>
+        <div class="slide" style="background-image: url('image/12.jpeg');"></div>
+        <div class="slide" style="background-image: url('image/ha.jpeg');"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Custom Garments & Expert in All Kinds of African Dress and Design</h1>
+        <a href="#" class="cta-button" id="bookAppointmentBtn">📅 Book an Appointment</a>
+      </div>
+      <div class="slider-nav">
+        <span class="slider-dot active-dot"></span><span class="slider-dot"></span><span class="slider-dot"></span><span class="slider-dot"></span><span class="slider-dot"></span>
+      </div>
+    </section>
+
+    <!-- SERVICES SHOWCASE SECTION - Bright, Attractive Cards with Images -->
+    <section class="services-showcase" id="servicesSection">
+      <div class="container">
+        <h2 class="section-title"><span class="gold-underline">Our Premium Services</span></h2>
+        <p class="section-subtitle">Discover excellence in every stitch — tailored just for you</p>
+        
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card" data-service="tailoring">
+            <div class="service-image">
+              <img src="image/20.jpeg" alt="Custom Tailoring">
+              <div class="service-overlay">
+                <i class="fas fa-scissors"></i>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Custom Tailoring</h3>
+              <p>Bespoke garments crafted perfectly for men and women. From traditional African wear to modern corporate attire, we bring your vision to life with precision and style.</p>
+              <a href="#" class="service-cta">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card" data-service="alterations">
+            <div class="service-image">
+              <img src="image/scre.jpg" alt="Professional Alterations">
+              <div class="service-overlay">
+                <i class="fas fa-ruler-combined"></i>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Professional Alterations</h3>
+              <p>Perfect fit guaranteed! Whether it's adjusting hemlines, resizing suits, or modifying traditional outfits, our expert tailors ensure flawless results every time.</p>
+              <a href="#" class="service-cta">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card" data-service="repair">
+            <div class="service-image">
+              <img src="image/14.jpeg" alt="Quick Repair">
+              <div class="service-overlay">
+                <i class="fas fa-tools"></i>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Quick Repair</h3>
+              <p>Fast, reliable repairs for your beloved garments. From torn seams to broken zippers, we restore your clothes to like-new condition in record time.</p>
+              <a href="#" class="service-cta">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card" data-service="ladieswear">
+            <div class="service-image">
+              <img src="image/fv.jpeg" alt="Ladies Wear & Office Suit">
+              <div class="service-overlay">
+                <i class="fas fa-female"></i>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Ladies Wear & Office Suits</h3>
+              <p>Elegant and professional outfits for the modern woman. From power suits to chic dresses, we create clothing that commands respect and turns heads.</p>
+              <a href="#" class="service-cta">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card" data-service="wedding">
+            <div class="service-image">
+              <img src="image/9.jpeg" alt="Wedding Dress Design">
+              <div class="service-overlay">
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Wedding Dress & Design</h3>
+              <p>Your dream wedding dress, custom-designed for your special day. From classic elegance to modern glamour, we create gowns that make memories last forever.</p>
+              <a href="#" class="service-cta">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card" data-service="kaftan">
+            <div class="service-image">
+              <img src="image/caf2.jpeg" alt="Kaftan & African Styles">
+              <div class="service-overlay">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Kaftan & African Styles</h3>
+              <p>Embrace your heritage with stunning Kaftans and authentic African designs. We blend traditional craftsmanship with contemporary trends for a unique look.</p>
+              <a href="#" class="service-cta">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="aboutSection">
+      <div class="container">
+        <h2 class="section-title"><span class="gold-underline">About Us</span></h2>
+        <div class="about-flex">
+          <div class="about-image">
+            <img src="image/6.jpeg" alt="Hafrak Fashion Signature Design">
+          </div>
+          <div class="about-text">
+            <h3>Our Story</h3>
+            <p>Located in the heart of <strong>Takoradi Fijai</strong>, Hafrak Fashion was born out of a passion for authentic African style. We blend traditional techniques with modern trends to create masterpieces for both men and women.</p>
+            <p>Whether it's the perfect kente gown or a sharp corporate suit, our goal is to bring your vision to life with precision and grace. With years of experience in custom tailoring, alterations, and wedding dress design, we take pride in delivering exceptional quality and personalized service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-us-section" id="whyUsSection">
+      <div class="container">
+        <h2 class="section-title"><span class="gold-underline">Why Choose Us</span></h2>
+        <div class="why-us-split-layout">
+          <div class="why-column-left">
+            <div class="why-card">
+              <div class="why-img"><img src="image/female.jpeg" alt="Personalized Designs"></div>
+              <h3>Personalized Designs</h3>
+              <p>Every client receives a unique consultation. We sketch, tailor, and perfect designs that reflect your personality and cultural pride.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-img"><img src="image/18.jpeg" alt="Expert Tailoring"></div>
+              <h3>Expert Tailoring & Alterations</h3>
+              <p>Over a decade of precision work: bespoke suits, delicate finishes, and flawless alterations — all completed in-house with care.</p>
+            </div>
+          </div>
+          <div class="why-column-right">
+            <div class="why-card">
+              <div class="why-img"><img src="image/5.jpeg" alt="Quality Craftsmanship"></div>
+              <h3>Quality Craftsmanship</h3>
+              <p>Only the finest African and European textiles. Every stitch is long-lasting, comfortable, and visually stunning.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-img"><img src="image/19.jpeg" alt="Local Expertise"></div>
+              <h3>Local Expertise With Personal Touch</h3>
+              <p>Based in Fijai, Takoradi, we understand local fashion needs — from traditional ceremonies to corporate events.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-section" id="workSection">
+      <div class="container">
+        <h2 class="section-title"><span class="gold-underline">Our Latest Work</span></h2>
+        <div class="portfolio-grid">
+          <div class="port-item"><img src="image/1.jpeg" alt="Men's Kaftan"></div>
+          <div class="port-item"><img src="image/22.jpeg" alt="Wedding Guest Gown"></div>
+          <div class="port-item"><img src="image/9.jpeg" alt="Bridal Alteration"></div>
+          <div class="port-item"><img src="image/8.peg.jpeg" alt="Kente Modern Dress"></div>
+          <div class="port-item"><img src="image/16.jpeg" alt="Sharp Corporate Suit"></div>
+          <div class="port-item"><img src="image/20.jpeg" alt="Office Wear"></div>
+          <div class="port-item"><img src="image/21.jpeg" alt="Traditional Wedding"></div>
+          <div class="port-item"><img src="image/Full Length [59 Inches] Asooke Bubu with Embroidery.jpg" alt="Modern Kente"></div>
+          <div class="port-item"><img src="image/17.jpeg" alt="Executive Suit"></div>
+          <div class="port-item"><img src="image/ff.jpeg" alt="Couture African"></div>
+          <div class="port-item"><img src="image/ha.jpeg" alt="Modern Kente"></div>
+          <div class="port-item"><img src="image/hh.jpeg" alt="Executive Suit"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section" id="reviewsSection">
+      <div class="container">
+        <h2 class="section-title"><span class="gold-underline">Client Reviews</span></h2>
+        <div class="reviews-grid">
+          <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Hafrak made my wedding dress perfect! The attention to detail was incredible."</p><h4>— Ama E.</h4></div>
+          <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"The best tailor in Takoradi. My suits fit like a second skin."</p><h4>— Kwame M.</h4></div>
+          <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Professional, punctual, and exceptional quality. Highly recommended!"</p><h4>— Nana Y.</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faqSection">
+      <div class="container">
+        <h2 class="section-title"><span class="gold-underline">Frequently Asked Questions</span></h2>
+        <div class="faq-accordion">
+          <div class="faq-item"><div class="faq-question">How long does a custom outfit take? <i class="fas fa-plus"></i></div><div class="faq-answer">Typically 7–14 days depending on complexity. Rush orders available upon request.</div></div>
+          <div class="faq-item"><div class="faq-question">Do you offer fitting sessions? <i class="fas fa-plus"></i></div><div class="faq-answer">Yes, we schedule at least two fittings for custom garments to ensure a flawless finish.</div></div>
+          <div class="faq-item"><div class="faq-question">Can I bring my own fabric? <i class="fas fa-plus"></i></div><div class="faq-answer">Absolutely! We also provide premium Ankara, Kente, and lace if needed.</div></div>
+          <div class="faq-item"><div class="faq-question">Do you offer alteration services for existing clothes? <i class="fas fa-plus"></i></div><div class="faq-answer">Yes, professional alterations for all types of garments are available.</div></div>
+          <div class="faq-item"><div class="faq-question">Where exactly are you located? <i class="fas fa-plus"></i></div><div class="faq-answer">Fijai, Takoradi — near the main taxi station. Map below shows our exact location.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-flex">
+        <div class="contact-left">
+          <h3><i class="fas fa-paper-plane"></i> Send Us a Message</h3>
+          <p>Fill out the form below to get in touch with us. We value your inquiries and will respond promptly to help bring your vision to life.</p>
+          <form id="contactForm">
+            <input type="text" id="contactName" placeholder="Your full name" required>
+            <input type="email" id="contactEmail" placeholder="Email address" required>
+            <input type="tel" id="contactPhone" placeholder="Phone number (optional)">
+            <textarea id="contactMsg" rows="4" placeholder="Tell us about your dream outfit, alteration, or design..."></textarea>
+            <button type="submit" class="cta-button small-btn">Send Message <i class="fas fa-arrow-right"></i></button>
+          </form>
+          <div id="formStatus"></div>
+        </div>
+        <div class="contact-right">
+          <h3><i class="fas fa-address-card"></i> Contact Hafrak Fashion</h3>
+          <p class="contact-phone"><i class="fas fa-phone-alt"></i> <a href="tel:+233508208477">+233 50 820 8477</a></p>
+          <p class="contact-email"><i class="fas fa-envelope"></i> <a href="mailto:afrakomahhanna@gmail.com">afrakomahhanna@gmail.com</a></p>
+          <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=Fijai%2C%20Takoradi%2C%20Ghana&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <p class="address"><i class="fas fa-map-marker-alt"></i> Fijai Junction, near Shell Filling Station, Takoradi. Open Mon-Sat 9am-6pm.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-socials">
+        <a href="https://wa.me/233508208477" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:hello@hafrakfashion.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="copyright">&copy; 2026 Hafrak Fashion – Fijai, Takoradi. Precision & African Elegance.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
